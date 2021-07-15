@@ -1,0 +1,61 @@
+.gb-topnav {
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.gb-topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.gb-topnav a:hover {
+  /*background-color: #ddd;*/
+  color: #cc0099;
+}
+
+.gb-topnav a.active {
+  /*background-color: #4CAF50;*/
+  /*color: #cc0099;*/
+}
+
+.gb-topnav .icon {
+  display: none;
+  color: black;
+}
+
+
+@media screen and (max-width: 600px) {
+  .gb-topnav a:not(:first-child) {display: none;}
+  .gb-topnav a.icon {
+    float: right;
+    display: block;
+    /*background-color: black;*/
+  }
+  .gb-topnav a {
+  float: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gb-topnav.responsive {position: relative;}
+  .gb-topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .gb-topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    background-color: black;
+    color: white;
+  }
+  .gb-topnav.responsive a:hover {
+  color: #cc0099;
+  }
+
+}
