@@ -185,7 +185,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   vertical-align: middle; }
 
 .btn-singin {
-  background: #7fc9fb;
+  background: #240b36;
   color: #fff;
   padding: 10px 23px;
   margin-left: 30px;
@@ -205,9 +205,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .btn-apple {
   border-width: 2px;
-  border-color: #3c96ff;
+  border-color: #240b36;
   border-style: solid;
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+  background: linear-gradient(to right, #240b36 0%, #CD113B 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
@@ -216,14 +216,14 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   -o-transition: all 0.3s ease-in-out; }
 
 .btn-apple i {
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+  background: linear-gradient(to right, #240b36 0%, #CD113B 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
 .btn-apple:hover,
 .btn-apple:active,
 .btn-apple:focus {
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%) !important;
+  background: linear-gradient(to right, #240b36 0%, #CD113B 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important; }
 
@@ -606,7 +606,7 @@ button:focus {
     -webkit-transition: all .8s ease;
     transition: all .8s ease; }
     #features .feature-item .feature-icon {
-      background: #e3fff2;
+      background: #fcd4dd;
       width: 100px;
       height: 100px;
       margin: 0px auto;
@@ -620,11 +620,11 @@ button:focus {
       border-radius: 50%;
       position: relative;
       margin-right: 30px;
-      border: 1px solid #3ecf8e;
+      border: 1px solid #c31432;
       margin-top: 12px; }
       #features .feature-item .feature-icon i {
         font-size: 40px;
-        color: #3ecf8e;
+        color: #c31432;
         position: absolute;
         left: 0;
         right: 0;
@@ -642,7 +642,7 @@ button:focus {
       -webkit-transition: all .8s ease;
       transition: all .8s ease; }
     #features .feature-item:hover .feature-icon {
-      background: #3ecf8e;
+      background: #c31432;
       -moz-transition: all .8s ease;
       -webkit-transition: all .8s ease;
       transition: all .8s ease; }
@@ -764,12 +764,12 @@ button:focus {
     color: #fff; }
   #showcase .gradient-bg {
     background: #5533ff;
-    background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%);
+    background: linear-gradient(95deg, #240b36  40%, #c31432 100%);
     padding: 119px 0px 80px 0px; }
   #showcase .showcase-slider .owl-controls .owl-page.active span, #showcase .showcase-slider .owl-controls.clickable .owl-page:hover span {
     filter: Alpha(Opacity=100);
     opacity: 1;
-    background: #3ecf8e; }
+    background: #c31432; }
   #showcase .showcase-slider .owl-controls .owl-page span {
     display: block;
     width: 12px;
@@ -780,7 +780,7 @@ button:focus {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
-    background: #3ecf8e; }
+    background: #c31432; }
   #showcase .showcase-slider .owl-controls .active span {
     width: 15px;
     height: 15px; }
@@ -813,7 +813,7 @@ button:focus {
       color: #fff;
       font-size: 20px; }
   #showcase .showcase-slider .screenshot-thumb > .hover-content {
-    background-color: #3ecf8e;
+    background-color: #c31432;
     opacity: 0.90;
     height: 85%;
     left: 0;
@@ -873,7 +873,7 @@ button:focus {
       color: #5e629c;
       font-style: italic; }
     #testimonial #client-testimonial .owl-controls .owl-buttons div.owl-prev {
-      color: #3ecf8e;
+      color: #c31432;
       display: inline-block;
       zoom: 1;
       *display: inline;
@@ -893,7 +893,7 @@ button:focus {
       height: 38px;
       padding: 8px 0px; }
     #testimonial #client-testimonial .owl-controls .owl-buttons div.owl-next {
-      color: #3ecf8e;
+      color: #c31432;
       display: inline-block;
       zoom: 1;
       *display: inline;
@@ -914,8 +914,8 @@ button:focus {
       padding: 8px 0px; }
     #testimonial #client-testimonial .owl-controls .owl-buttons div.owl-prev:hover, #testimonial #client-testimonial .owl-controls .owl-buttons div.owl-next:hover {
       color: #fff;
-      background: #3ecf8e;
-      border-color: #3ecf8e; }
+      background: #c31432;
+      border-color: #c31432; }
   #testimonial .video-promo-content {
     padding-top: 0;
     padding-bottom: 300px; }
@@ -960,7 +960,7 @@ button:focus {
     transition: all 200ms;
     opacity: 0.5; }
   #testimonial .video-play-button:hover:after {
-    background-color: #28ca81; }
+    background-color: #c31432; }
   #testimonial .video-play-button:hover span {
     border-left: 22px solid #fff;
     border-top: 14px solid transparent;
@@ -972,7 +972,7 @@ button:focus {
     z-index: 3;
     width: 0;
     height: 0;
-    border-left: 22px solid #3ecf8e;
+    border-left: 22px solid #c31432;
     border-top: 14px solid transparent;
     border-bottom: 14px solid transparent;
     border-radius: 2px;
@@ -1056,10 +1056,10 @@ button:focus {
       margin: 4px;
       background: #fff; }
     #team .single-team .team-social-icons ul.social-list li:hover {
-      background: #3ecf8e;
+      background: #c31432;
       -moz-transition: all .4s ease;
       -webkit-transition: all .4s ease;
-      border-color: #3ecf8e;
+      border-color: #c31432;
       transition: all .4s ease; }
     #team .single-team .team-social-icons ul.social-list li:hover a {
       display: block; }
@@ -1069,7 +1069,7 @@ button:focus {
       -webkit-transition: all .4s ease;
       transition: all .4s ease; }
     #team .single-team .team-social-icons ul.social-list li a i {
-      color: #3ecf8e;
+      color: #c31432;
       font-size: 16px; }
   #team .single-team:hover {
     box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
@@ -1115,9 +1115,9 @@ button:focus {
       -moz-transition: all .8s ease;
       -webkit-transition: all .8s ease;
       transition: all .8s ease;
-      border-color: #3ecf8e; }
+      border-color: #c31432; }
     #blog .blog-item-wrapper:hover h3 a {
-      color: #3ecf8e; }
+      color: #c31432; }
     #blog .blog-item-wrapper .blog-item-text {
       padding: 26px 30px 30px 30px; }
     #blog .blog-item-wrapper h3 {
@@ -1132,13 +1132,13 @@ button:focus {
       line-height: 23px;
       margin-bottom: 20px; }
     #blog .blog-item-wrapper a.read-more {
-      color: #3ecf8e;
+      color: #c31432;
       font-size: 14px;
       text-transform: uppercase;
       font-weight: 500;
       position: relative; }
     #blog .blog-item-wrapper a.read-more i {
-      color: #3ecf8e;
+      color: #c31432;
       font-size: 10px;
       position: absolute;
       top: 3px; }
@@ -1149,13 +1149,13 @@ button:focus {
       color: #5e629c;
       font-size: 14px; }
     #blog .blog-item-wrapper span.name i {
-      color: #3ecf8e;
+      color: #c31432;
       margin-right: 5px; }
     #blog .blog-item-wrapper span.date a {
       color: #5e629c;
       font-size: 14px; }
     #blog .blog-item-wrapper span.date i {
-      color: #3ecf8e;
+      color: #c31432;
       margin-right: 5px; }
 
 /* ==========================================================================
@@ -1383,7 +1383,7 @@ button:focus {
   color: #5e629c; }
 
 #contact form#contactForm .form-control:focus {
-  border: 1px solid #3ecf8e;
+  border: 1px solid #c31432;
   outline: none;
   box-shadow: none;
   background: #e5fff3; }
@@ -1405,7 +1405,7 @@ button:focus {
     border-top: 1px solid #3c1f6e;
     padding-top: 30px;
     padding-bottom: 30px; }
-    #footer-Content .copyright p {
+    #footer-Content .copyright span {
       color: #c31432;
       font-size: 18px; }
     #footer-Content .copyright a {
@@ -1432,7 +1432,7 @@ button:focus {
       height: 38px;
       color: #fff;
       top: 0;
-      background: #3ecf8e;
+      background: #c31432;
       display: block;
       padding: 9px 20px;
       font-size: 18px;
@@ -1451,7 +1451,7 @@ button:focus {
     -o-transition: all 300ms;
     transition: all 300ms; }
     #footer-Content ul.menu li a:hover {
-      color: #3ecf8e;
+      color: #c31432;
       padding-left: 5px;
       -webkit-transition: all 300ms;
       -o-transition: all 300ms;
